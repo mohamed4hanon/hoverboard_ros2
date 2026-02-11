@@ -1,5 +1,16 @@
 hi
-
+ros2_ws/
+└── src/
+    └── mohamed_ros2/          <-- (المجلد الرئيسي للحزمة)
+        ├── package.xml
+        ├── setup.py
+        ├── setup.cfg
+        ├── resource/
+        │   └── mohamed_ros2   <-- (ملف فارغ)
+        └── mohamed_ros2/      <-- (المجلد البرمجي)
+            ├── __init__.py
+            └── driver_node.py
+            
 # change dir to your ROS2 directory
 
 cd ~/ros2_ws/src
